@@ -1,0 +1,16 @@
+package stream;
+
+public class Product {
+
+	public int prodId;
+	public String prodId;
+	public float prodId;
+	public int prodId;
+	public String prodId;
+	public float prodId;
+	{
+		
+
+	}
+
+}

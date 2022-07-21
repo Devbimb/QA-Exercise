@@ -1,0 +1,28 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+	public static void main(String[] args) {
+		List<Bed> bedList = new ArrayList();
+		Bed b1 = new Bed();
+		Bed b2 = new Bed();
+		Bed b3 = new Bed();
+		bedList.add(b1);
+		bedList.add(b2);
+		bedList.add(b3);
+		FurnitureTest obj = new FurnitureTest();
+		obj.makeFurnitures(bedList);
+		
+		List<Triangle> triList = new ArrayList();
+		Triangle t1 = new Triangle();
+		Triangle t2 = new Triangle();
+		Triangle t3 = new Triangle();
+		triList.add(t1);
+		triList.add(t2);
+		triList.add(t3);
+		obj.drawShapes(triList);
+	}
+
+}

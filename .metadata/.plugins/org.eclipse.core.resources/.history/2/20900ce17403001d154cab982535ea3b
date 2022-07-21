@@ -1,0 +1,18 @@
+package com;
+
+public class ValidCC {
+
+	public static void main(String[] args) {
+		public void checkValidity(String ccNo) throws ValidCCException
+		{
+			if (ccNo.lenght()!=16)
+			{
+				throw new ValidCCException("Invalid CC No");
+			}
+			else
+				System.out.println("Please make payment");
+		}
+
+	}
+
+}

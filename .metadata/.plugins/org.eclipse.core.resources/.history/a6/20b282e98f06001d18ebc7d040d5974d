@@ -1,0 +1,9 @@
+package arraylist_org;
+
+public class Item {
+	String name;
+	int price;
+	String brand;
+	int qty;
+	
+}

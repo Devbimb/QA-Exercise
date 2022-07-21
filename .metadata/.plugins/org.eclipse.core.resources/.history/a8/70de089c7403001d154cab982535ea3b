@@ -1,0 +1,16 @@
+package com;
+
+public class ValidCC {
+
+	public static void main(String[] args) {
+		public void checkValidity(String ccNo)
+		{
+			if (ccNo.lenght()!=16)
+			{
+				
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,71 @@
+package org.qa;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class ReadAddTest {
+	public static void main(String[] args) {
+		String url = "jdbc:mysql://localhost:3306/qa-sample";
+		String userName = "root";
+		// String password = "password";
+		String password = "Bimbo3_96!";
+		Connection con = null;
+		{
+				//ReadTest rd = new ReadTest();
+				Scanner scn = new Scanner(System.in);
+				System.out.println("Hello! welcome to my Query Application");
+				System.out.println("------------------------------");
+				System.out.println("What would you like to do? please enter a number");
+				System.out.println("1.Read Record");
+				System.out.println("2.Add Record");
+				int choice = scn.nextInt();
+				try {
+					// Connection con = DriverManager.getConnection(url,userName,password);
+					con = DriverManager.getConnection(url, userName, password);
+					System.out.println("Connection successful");
+					// read operation
+					// update
+					// delete
+					// insert
+					String query = "select * from product";// java statement
+					Statement stmt = con.createStatement(); // SQL statement
+					ResultSet rs = stmt.executeQuery(query);
+					while (rs.next()) {
+						int pid = rs.getInt(1);
+						String name = rs.getString(2);
+						double price = rs.getDouble(3);
+						String brand = rs.getString(4);
+						long quantity = rs.getLong(5);
+						System.out.println(pid + "--" + name + "--" + price + "--" + brand + "--" + quantity);
+					}
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					System.out.println("something went wrong");
+					System.out.println(e.getMessage());
+					e.printStackTrace();
+				} finally {
+					System.out.println("Hello Finally");
+
+					try {
+						con.close();
+						System.out.println("Database connection closed, Bye bye");
+					} catch (SQLException e) {
+						// TODO Auto-generated catch block
+						// System.out.println("Inside the final catch block");
+						e.printStackTrace();
+					}
+				}
+
+				}
+
+			}
+
+		}
+
+}
+
+}

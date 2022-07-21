@@ -1,0 +1,13 @@
+package com;
+
+import java.util.List;
+
+public class FurnitureTest {
+	public void drawShapes(List<? extends Furniture> list)
+	{
+		for(Furniture s:list) 
+		{
+			s.make();
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package com;
+
+public class ValidCCException extends Exception{
+		public ValidCCEception() {}
+		public ValidCCEception(String msg)
+		{
+			super(msg);
+		}
+
+	}
+
+}

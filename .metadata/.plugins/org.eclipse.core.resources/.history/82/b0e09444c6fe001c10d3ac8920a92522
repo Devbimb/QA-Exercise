@@ -1,0 +1,22 @@
+package net;
+
+import static org.junit.Assert.assertEquals;
+
+public class TestAsserts {
+	@Test
+	public void testAssert()
+	{
+		String str1 ="upasana";
+		String str2 ="upasana";
+		String str3 =null;
+		int x = 10;
+		int x = 20;
+		
+		int[] xarr = {1,2,3};
+		int[] yarr = {1,2,3};
+		
+		assertEquals(str1,str2);
+	//	assertEquals(str1,str2);
+	}
+
+}

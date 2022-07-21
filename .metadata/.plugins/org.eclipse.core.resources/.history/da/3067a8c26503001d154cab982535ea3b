@@ -1,0 +1,13 @@
+package com;
+
+public class Test {
+	public static void main (String[] args) {
+		Eligibility obj = new Eligibility();
+		try {
+			obj.checkEligibility(20);
+		} catch (InvalidAgeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,23 @@
+package com.me;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class TestUnits {
+	@Test
+	public void checkFindBig()
+	{
+		//assertEquals(para1,para2)
+		//assertEquals(resulExpected,calculatingtheresult)
+		assertEquals(20,Calculator.findBig(10,20));
+		
+	}
+	
+	@Test
+	public void checkFindBiggest()
+	{
+		assertEquals(20,Calculator.findBig(50, Calculator.findBiggest(10, 20, 50));
+		
+	}
+}

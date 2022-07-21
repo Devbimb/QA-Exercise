@@ -1,0 +1,15 @@
+package exception;
+
+public class Test {
+	
+	public static void main (String [] args) {
+	try {
+		int x = 10;
+		int y = 0;
+		int z = x / y;
+	}catch (Exception e)
+	{
+		System.out.println("Something went wrong, probably one of the is zero");
+	}
+	}
+}

@@ -1,0 +1,23 @@
+package org;
+
+public class Calculator {
+	// unit1
+	public static int findBig(int x, int y) {
+		if (x > y)
+			return x;
+		else
+			return y;
+
+	}
+
+	public static int findBiggest(int i, int j, int k){ 
+	{
+		if(i > j && j > k)
+			return i;
+		if(j > i && i > k)
+			return j;
+		if(k > j && j > i)
+			return k;
+		
+	}
+}

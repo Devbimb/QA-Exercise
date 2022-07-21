@@ -1,0 +1,8 @@
+package com;
+@FunctionalInterface
+public interface Addition {
+//	public void add();
+//	public void(int x, int y);
+	Public int add (int x, int y);
+
+}
