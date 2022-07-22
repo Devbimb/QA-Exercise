@@ -50,7 +50,7 @@ D. JAVA INTERMEDIATE
  5. Enums
  6. Logging
  7. Generics
- 8. Lambda Expressionst
+ 8. Lambda Expressions
  9. Streams 
 10. Complexity
 11. Input and Output
