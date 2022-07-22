@@ -2782,3 +2782,4 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2022-07-21 14:42:05,212 [Worker-261: Launching HelloWorld] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-07-21 14:42:05,214 [Worker-261: Launching HelloWorld] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-07-21 14:42:05,215 [Worker-261: Launching HelloWorld] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-21 14:42:05,216 [Worker-261: Launching HelloWorld] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
