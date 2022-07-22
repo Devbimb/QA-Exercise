@@ -1,6 +1,6 @@
 # QA-Exercise
 From Monday, 04.07.22 - Friday, 22.07.22, I have been learning Java [Java Basic, Maven, Testing(Foundation) and Java Intermediate], 
-under the most competetent trainer I have ever met, Upasana Dewangan. Upasana patiently took me through the following lessons in Java:
+under the most competent trainer I have ever met, Upasana Dewangan. Upasana patiently took me through the following lessons in Java:
 
 First Week Monday, 04.07.22 - Friday, 08.07.22
 A. Java Basic 
